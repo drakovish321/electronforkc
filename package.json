@@ -1,0 +1,13 @@
+{
+  "name": "KittenClicker",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . KittenClicker --platform=darwin --arch=x64 --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^26.0.0",
+    "electron-packager": "^17.1.0"
+  }
+}
